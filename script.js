@@ -131,6 +131,54 @@ window.addEventListener('scroll', () => {
 
 
 /* ============================================
+   HAMBURGER MENU
+   ============================================ */
+(function () {
+    const hamburger = document.getElementById('nav-hamburger');
+    const navLinksEl = document.getElementById('nav-links');
+    if (!hamburger || !navLinksEl) return;
+
+    function closeMenu() {
+        hamburger.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
+        navLinksEl.classList.remove('open');
+    }
+
+    function toggleMenu() {
+        const isOpen = navLinksEl.classList.toggle('open');
+        hamburger.classList.toggle('active', isOpen);
+        hamburger.setAttribute('aria-expanded', String(isOpen));
+    }
+
+    hamburger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleMenu();
+    });
+
+    // Close on nav link click
+    navLinksEl.querySelectorAll('.nav-link').forEach((link) => {
+        link.addEventListener('click', closeMenu);
+    });
+
+    // Close on outside click
+    document.addEventListener('click', (e) => {
+        if (!navLinksEl.contains(e.target) && !hamburger.contains(e.target)) {
+            closeMenu();
+        }
+    });
+
+    // Close on scroll
+    let lastY = window.scrollY;
+    window.addEventListener('scroll', () => {
+        if (Math.abs(window.scrollY - lastY) > 50) {
+            closeMenu();
+            lastY = window.scrollY;
+        }
+    }, { passive: true });
+})();
+
+
+/* ============================================
    SHELF — PARALLAX ON SCROLL
    ============================================ */
 (function () {
