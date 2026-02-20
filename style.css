@@ -554,13 +554,19 @@ img {
     color: var(--text);
     flex: 1;
     margin: 0;
+    transition: transform 0.3s var(--ease), color 0.2s var(--ease);
 }
 
 .project-arrow {
-    font-size: 0.9rem;
+    justify-self: end;
     color: var(--text-faint);
-    transition: color 0.2s, transform 0.2s;
-    flex-shrink: 0;
+    font-size: 1.2rem;
+    transition: color 0.2s var(--ease), transform 0.2s var(--ease);
+}
+
+.project-row:hover .project-name {
+    color: var(--accent);
+    transform: translateX(4px);
 }
 
 .project-row:hover .project-arrow {
@@ -603,6 +609,11 @@ img {
 
 .shelf-item {
     display: block;
+    transition: transform 0.4s var(--ease);
+}
+
+.shelf-item:hover {
+    transform: translateY(-4px);
 }
 
 .shelf-item a {
@@ -618,6 +629,11 @@ img {
     background: var(--bg-alt);
     aspect-ratio: 4 / 3;
     position: relative;
+    transition: box-shadow 0.4s var(--ease);
+}
+
+.shelf-item:hover .shelf-img-wrap {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.08);
 }
 
 .shelf-img {
@@ -805,7 +821,7 @@ img {
 .reveal {
     opacity: 0;
     transform: translateY(24px);
-    transition: opacity 0.7s var(--ease-out), transform 0.7s var(--ease-out);
+    transition: opacity 0.7s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .reveal.visible {
@@ -816,7 +832,7 @@ img {
 .reveal-child {
     opacity: 0;
     transform: translateY(16px);
-    transition: opacity 0.6s var(--ease-out), transform 0.6s var(--ease-out);
+    transition: opacity 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .reveal-child.visible {

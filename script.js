@@ -131,6 +131,37 @@ window.addEventListener('scroll', () => {
 
 
 /* ============================================
+   HERO PARALLAX ON SCROLL
+   ============================================ */
+(function () {
+    const heroContent = document.querySelector('.hero-content');
+    if (!heroContent) return;
+
+    let ticking = false;
+
+    function updateHeroParallax() {
+        const scrollY = window.scrollY;
+        // Only apply if near top
+        if (scrollY < window.innerHeight) {
+            const yPos = scrollY * 0.3;
+            // Start fading out after 50px, completely transparent by 400px
+            const opacity = Math.max(0, 1 - (Math.max(0, scrollY - 50) / 350));
+            heroContent.style.transform = `translateY(${yPos}px)`;
+            heroContent.style.opacity = opacity.toString();
+        }
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', () => {
+        if (!ticking) {
+            requestAnimationFrame(updateHeroParallax);
+            ticking = true;
+        }
+    }, { passive: true });
+})();
+
+
+/* ============================================
    HAMBURGER MENU
    ============================================ */
 (function () {
