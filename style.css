@@ -931,6 +931,13 @@ img {
     margin: 0;
 }
 
+.writing-placeholder {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    font-style: italic;
+    padding: 8px 0;
+}
+
 /* Work Metrics */
 .work-metrics {
     display: flex;
