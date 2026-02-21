@@ -1231,6 +1231,33 @@ img {
     max-width: 65ch;
 }
 
+/* ============================================
+   EDITORIAL PHOTO BLOCK
+   ============================================ */
+.editorial-image {
+    margin: 48px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.editorial-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+}
+
+.editorial-image figcaption {
+    margin-top: 12px;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-align: left;
+    letter-spacing: 0.02em;
+}
+
 .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
