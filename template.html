@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}} — Hanif Ramadhan</title>
+    <meta property="og:description" content="Founder, MBA candidate, and product builder.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://hanif.info/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Open Graph SEO -->
+    <meta property="og:title" content="{{title}} — Hanif Ramadhan">
+    <meta property="og:description" content="{{description}}">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Link to root stylesheet -->
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        .post-content h2,
+        .post-content h3 {
+            margin-top: 40px;
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+
+        .post-content p {
+            margin-bottom: 24px;
+            color: var(--text);
+        }
+
+        .post-content a {
+            color: var(--text);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .post-content a:hover {
+            color: var(--accent);
+        }
+    </style>
+</head>
+
+<body class="bw-theme">
+    <nav class="site-nav">
+        <div class="container">
+            <div class="nav-inner">
+                <a href="../index.html" class="nav-logo">H.R.</a>
+                <a href="../index.html#writing" class="nav-link">&larr; Back to Writing</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container" style="max-width: 680px; padding-top: 140px; padding-bottom: 100px;">
+        <header style="margin-bottom: 56px;">
+            <h1
+                style="font-size: 2.8rem; font-weight: 500; letter-spacing: -0.03em; margin-bottom: 16px; line-height: 1.1; color: var(--text);">
+                {{title}}</h1>
+            <p
+                style="color: var(--text-muted); font-size: 0.95rem; font-family: var(--font-mono); letter-spacing: 0.05em; text-transform: uppercase;">
+                {{date}}</p>
+        </header>
+
+        <article class="post-content" style="font-size: 1.1rem; line-height: 1.8;">
+            {{content}}
+        </article>
+
+        <hr style="margin-top: 64px; margin-bottom: 32px; border: none; border-top: 1px solid var(--border);">
+        <p style="font-size: 0.9rem; color: var(--text-muted); text-align: center;">Thoughtfully written by Hanif
+            Ramadhan in Barcelona.</p>
+    </main>
+</body>
+
+</html>

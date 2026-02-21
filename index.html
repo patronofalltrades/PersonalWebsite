@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hanif Ramadhan — Founder & MBA Candidate</title>
+    <meta property="og:description" content="Founder, MBA candidate, and product builder.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://hanif.info/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="description"
         content="Hanif Ramadhan — Founder, MBA candidate at IESE Business School, and product builder at the intersection of technology and business strategy.">
     <meta property="og:title" content="Hanif Ramadhan">
@@ -18,6 +22,7 @@
 
     <meta name="theme-color" content="#f9f8f6">
     <link rel="stylesheet" href="style.css">
+    <meta name="view-transition" content="same-origin">
 </head>
 
 <body>
@@ -63,7 +68,6 @@
                     </p>
                     <div class="hero-cta">
                         <a href="#connect" class="btn btn-primary">Get in touch</a>
-                        <a href="#work" class="btn btn-ghost">See my work</a>
                     </div>
                 </div>
             </div>
@@ -114,9 +118,8 @@
                                 <span class="timeline-date">2025 — 2027</span>
                             </div>
                             <p class="timeline-desc">
-                                Selected as a Post-Graduate Entrepreneur Scholar by the Indonesian Government, one of
-                                fewer than 7% of applicants chosen in 2024. Focusing on strategy, entrepreneurship, and
-                                technology management at one of Europe's top-ranked business schools.
+                                Selected as a Post-Graduate Entrepreneur Scholar (top 7%). Focusing on strategy,
+                                entrepreneurship, and technology management at a top-ranked European business school.
                             </p>
                             <div class="timeline-tags">
                                 <span class="tag">Strategy</span>
@@ -138,10 +141,8 @@
                                 <span class="timeline-date">2014 — 2018</span>
                             </div>
                             <p class="timeline-desc">
-                                Built a foundation in engineering and materials science, developing an analytical
-                                mindset that later shaped how I approached product development and manufacturing
-                                technology. Active in student leadership, directing the National Metallurgy & Materials
-                                Week, a seminar attended by 500+ participants.
+                                Built an analytical foundation in engineering and materials science. Active in student
+                                leadership, directing the National Metallurgy Week, a seminar for 500+ participants.
                             </p>
                             <div class="timeline-tags">
                                 <span class="tag">Engineering</span>
@@ -186,9 +187,9 @@
                                     </div>
                                 </div>
                                 <p class="work-desc">
-                                    Built an Indonesian VR edtech startup to $1M+ revenue and 50+ factory clients across
-                                    Southeast Asia. Led a team of 11, expanded to Singapore and Malaysia, and partnered
-                                    with global MNCs on industrial training solutions.
+                                    Scaled a VR edtech startup to $1M+ revenue and 50+ factory clients across SEA. Led
+                                    an
+                                    11-person team and partnered with global MNCs on industrial training solutions.
                                 </p>
                                 <div class="work-tags">
                                     <span class="tag">Founder</span>
@@ -212,10 +213,8 @@
                                     <span class="work-company">Infinitigroup (PT. Citra Langgeng Sentosa)</span>
                                 </div>
                                 <p class="work-desc">
-                                    Joined an industrial automation and robotics integrator fresh out of university.
-                                    Secured
-                                    a $125K pilot project and won a flagship deal from a Fortune 500 client within six
-                                    months, earning Partner of the Year recognition.
+                                    Joined as an early automation team member. Secured a $125K pilot project and won a
+                                    flagship deal from a Fortune 500 client in six months, earning Partner of the Year.
                                 </p>
                                 <div class="work-tags">
                                     <span class="tag">Business Development</span>
@@ -235,9 +234,13 @@
         <section id="writing" class="section reveal">
             <div class="container">
                 <h2 class="section-label">Writing</h2>
-                <div class="writing-list">
-                    <p class="writing-placeholder">Essays and thoughts on AI, manufacturing, and building
-                        products—coming soon.</p>
+                <div class="writing-list" style="display: flex; flex-direction: column;">
+                    <a href="posts/the-industrialization-of-ai.html" class="project-row reveal-child">
+                        <span class="project-type"
+                            style="width: 100px; font-size: 0.8rem; color: var(--text-faint);">Feb 2026</span>
+                        <h3 class="project-name">The Industrialization of AI in Southeast Asia</h3>
+                        <span class="project-arrow">↗</span>
+                    </a>
                 </div>
             </div>
         </section>
@@ -283,7 +286,7 @@
             <div class="container">
                 <div class="shelf-intro">
                     <h2 class="section-label">The Shelf</h2>
-                    <p class="shelf-sub">Things I love, find beautiful, or keep coming back to.</p>
+                    <p class="shelf-sub">Things I love, find beautiful, thought-provoking, or cool.</p>
                 </div>
                 <div class="shelf-stagger">
 
@@ -513,11 +516,15 @@
                 Hanif Ramadhan &mdash; <span id="year">2026</span>
             </div>
             <div class="footer-right">
-                Designed &amp; built by hand
+                Built with <a href="https://antigravity.dev" target="_blank" rel="noopener"
+                    style="color:inherit;text-decoration:underline;text-underline-offset:3px;">Antigravity</a> &amp;
+                <a href="https://www.anthropic.com" target="_blank" rel="noopener"
+                    style="color:inherit;text-decoration:underline;text-underline-offset:3px;">Claude Code</a>
             </div>
         </div>
     </footer>
 
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
     <script src="script.js"></script>
 </body>
 
