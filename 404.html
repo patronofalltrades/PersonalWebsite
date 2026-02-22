@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — Page Not Found | Hanif Ramadhan</title>
+
+    <!-- Open Graph SEO -->
+    <meta property="og:title" content="404 — Page Not Found | Hanif Ramadhan">
+    <meta property="og:description" content="The page you are looking for could not be found.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#f9f8f6">
+
+    <!-- Preload Font -->
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='sans-serif' font-weight='bold' fill='%231a1a1a'>H</text></svg>">
+
+    <link rel="stylesheet" href="style.css">
+    <meta name="view-transition" content="same-origin">
+    <style>
+        .error-section {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 120px 24px;
+        }
+
+        .error-code {
+            font-size: clamp(4rem, 10vw, 8rem);
+            font-weight: 600;
+            line-height: 1;
+            letter-spacing: -0.04em;
+            color: var(--text);
+            margin-bottom: 24px;
+        }
+
+        .error-title {
+            font-size: 1.5rem;
+            color: var(--text);
+            margin-bottom: 16px;
+        }
+
+        .error-desc {
+            font-size: 1rem;
+            color: var(--text-muted);
+            margin-bottom: 40px;
+            max-width: 400px;
+            margin-inline: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="top-nav" id="top-nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-back">← Back to Home</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="error-section reveal">
+            <div class="container fade-in">
+                <h1 class="error-code">404</h1>
+                <h2 class="error-title">Page not found</h2>
+                <p class="error-desc">The page you're looking for doesn't exist or has been moved.</p>
+                <div class="hero-cta" style="justify-content: center;">
+                    <a href="index.html" class="btn btn-primary">Return Home</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

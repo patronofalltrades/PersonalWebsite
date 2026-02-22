@@ -5,8 +5,8 @@
     --bg: #f9f8f6;
     --bg-card: #ffffff;
     --text: #1a1a1a;
-    --text-muted: #6b6b6b;
-    --text-faint: #a0a0a0;
+    --text-muted: #595959;
+    --text-faint: #707070;
     --accent: #1a1a1a;
     --accent-light: #e8e8e8;
     --border: rgba(0, 0, 0, 0.07);
@@ -111,30 +111,18 @@ img {
 .nav-link {
     font-size: 0.8rem;
     color: var(--text-faint);
-    transition: color 0.2s var(--ease);
+    transition: color 0.1s var(--ease), font-weight 0.1s var(--ease), letter-spacing 0.1s var(--ease);
     position: relative;
     letter-spacing: 0.02em;
-}
-
-.nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 0;
-    height: 1px;
-    background: var(--accent);
-    transition: width 0.25s var(--ease);
+    font-weight: 400;
 }
 
 .nav-link:hover,
 .nav-link.active {
     color: var(--text);
-}
-
-.nav-link.active::after,
-.nav-link:hover::after {
-    width: 100%;
+    font-weight: 600;
+    letter-spacing: 0.00em;
+    /* -0.02em from base */
 }
 
 /* ============================================
@@ -486,10 +474,10 @@ img {
 
 .work-header {
     display: flex;
-    align-items: baseline;
-    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
     margin-bottom: 8px;
-    flex-wrap: wrap;
 }
 
 .work-role {
@@ -556,19 +544,23 @@ img {
     color: var(--text);
     flex: 1;
     margin: 0;
-    transition: transform 0.3s var(--ease), color 0.2s var(--ease);
+    letter-spacing: 0;
+    transition: transform 0.3s var(--ease), color 0.1s var(--ease), font-weight 0.1s var(--ease), letter-spacing 0.1s var(--ease);
 }
 
 .project-arrow {
     justify-self: end;
     color: var(--text-faint);
-    font-size: 1.2rem;
     transition: color 0.2s var(--ease), transform 0.2s var(--ease);
+    display: flex;
+    align-items: center;
 }
 
 .project-row:hover .project-name {
     color: var(--accent);
     transform: translateX(4px);
+    font-weight: 600;
+    letter-spacing: -0.02em;
 }
 
 .project-row:hover .project-arrow {
@@ -790,7 +782,7 @@ img {
     justify-content: space-between;
     align-items: center;
     font-size: 0.8rem;
-    color: var(--text-faint);
+    color: var(--text-muted);
 }
 
 .footer-left {
@@ -986,11 +978,15 @@ img {
     font-size: 0.9rem;
     color: var(--text-faint);
     text-decoration: none;
-    transition: color 0.2s;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    transition: color 0.1s var(--ease), font-weight 0.1s var(--ease), letter-spacing 0.1s var(--ease);
 }
 
 .nav-back:hover {
     color: var(--text);
+    font-weight: 600;
+    letter-spacing: 0.00em;
 }
 
 .case-header {
@@ -1052,7 +1048,7 @@ img {
    DETAIL PAGE — IMPACT CARD
    ============================================ */
 .detail-impact {
-    background: #faf6f1;
+    background: #f3f4f6;
     border: 1px solid rgba(0, 0, 0, 0.06);
     border-radius: 12px;
     padding: 32px;
