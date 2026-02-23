@@ -1078,7 +1078,7 @@ img {
     display: block;
     font-size: 1.8rem;
     font-weight: 600;
-    color: #c0553a;
+    color: var(--text);
     line-height: 1.2;
     margin-bottom: 4px;
 }
@@ -1115,7 +1115,7 @@ img {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: #c0553a;
+    background: var(--text);
 }
 
 .detail-bullets li strong {
