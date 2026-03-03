@@ -60,7 +60,8 @@ We only found out about the competition two weeks before the deadline and didn't
 ![Team Barcelona pitching GrabTrade at the INSEAD Product Games finale](images/insead-pitch.jpg)
 *Fig 2. — Pitching the GrabTrade live MVP to judges from Google, Stripe, and Grab.*
 
-## The Solution: GrabTrade
+<div class="detail-impact">
+<p class="detail-impact-label">The Solution: GrabTrade</p>
 
 GrabTrade is a B2B marketplace and financing solution that digitizes the connection between regional distributors and micro-retailers, built on Grab's existing infrastructure.
 
@@ -69,6 +70,7 @@ GrabTrade is a B2B marketplace and financing solution that digitizes the connect
 **02. Grab-Powered Delivery** Orders are pooled and auto-routed across Grab's existing fleet. Smart order pooling reduces delivery fees for store owners and increases earnings-per-km for Grab drivers.
 
 **03. GrabTrade Financing** Digital transaction history enables responsible credit scoring. Store owners access formal working capital at 18% APR (vs. 240% informal lenders). Grab pays distributors upfront; store owners repay from daily sales.
+</div>
 
 ## Financial Projection
 
@@ -132,7 +134,8 @@ Standing in front of product leaders from Grab, Google, Stripe, and INSEAD is an
 >
 > — Team Barcelona, IESE MBA Blog<sup>[2](#citation-2)</sup>
 
-## The Team
+<div class="detail-impact">
+<p class="detail-impact-label">The Team</p>
 
 Three IESE MBA Class of 2027 students. Three continents. Zero developers. A medically concerning amount of coffee.
 
@@ -141,6 +144,7 @@ Three IESE MBA Class of 2027 students. Three continents. Zero developers. A medi
 **[Monica Beatrice](https://www.linkedin.com/in/monicabelen/)** Southeast Asian FMCG professional with deep knowledge of local distribution channels. Spearheaded core ideation, financial structuring, and market strategy.
 
 **[Uday Mohan Govil](https://www.linkedin.com/in/uday-govil/)** Digital & Customer Strategy and Innovation & Ventures professional. Former management consultant who led the pitch presentation structure, ideal customer profiling, and target market sizing.
+</div>
 
 ---
 
