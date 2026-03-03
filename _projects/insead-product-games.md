@@ -64,14 +64,11 @@ We only found out about the competition two weeks before the deadline and didn't
 
 GrabTrade is a B2B marketplace and financing solution that digitizes the connection between regional distributors and micro-retailers, built on Grab's existing infrastructure.
 
-**01. Live B2B Marketplace**  
-Store owners browse and order from multiple distributors 24/7. A live price board shows real-time wholesale prices and promotions, giving warungs the transparency of a supermarket buyer.
+**01. Live B2B Marketplace** Store owners browse and order from multiple distributors 24/7. A live price board shows real-time wholesale prices and promotions, giving warungs the transparency of a supermarket buyer.
 
-**02. Grab-Powered Delivery**  
-Orders are pooled and auto-routed across Grab's existing fleet. Smart order pooling reduces delivery fees for store owners and increases earnings-per-km for Grab drivers.
+**02. Grab-Powered Delivery** Orders are pooled and auto-routed across Grab's existing fleet. Smart order pooling reduces delivery fees for store owners and increases earnings-per-km for Grab drivers.
 
-**03. GrabTrade Financing**  
-Digital transaction history enables responsible credit scoring. Store owners access formal working capital at 18% APR (vs. 240% informal lenders). Grab pays distributors upfront; store owners repay from daily sales.
+**03. GrabTrade Financing** Digital transaction history enables responsible credit scoring. Store owners access formal working capital at 18% APR (vs. 240% informal lenders). Grab pays distributors upfront; store owners repay from daily sales.
 
 ## Financial Projection
 
@@ -139,14 +136,11 @@ Standing in front of product leaders from Grab, Google, Stripe, and INSEAD is an
 
 Three IESE MBA Class of 2027 students. Three continents. Zero developers. A medically concerning amount of coffee.
 
-**[Hanif Ramadhan](https://www.linkedin.com/in/thanifr/)**
-Founder of Asperio (Industry 4.0, SEA) with 7 years of industrial tech experience. Directed product strategy and the development of the functional MVP.
+**[Hanif Ramadhan](https://www.linkedin.com/in/thanifr/)** Founder of Asperio (Industry 4.0, SEA) with 7 years of industrial tech experience. Directed product strategy and the development of the functional MVP.
 
-**[Monica Beatrice](https://www.linkedin.com/in/monicabelen/)**
-Southeast Asian FMCG professional with deep knowledge of local distribution channels. Spearheaded core ideation, financial structuring, and market strategy.
+**[Monica Beatrice](https://www.linkedin.com/in/monicabelen/)** Southeast Asian FMCG professional with deep knowledge of local distribution channels. Spearheaded core ideation, financial structuring, and market strategy.
 
-**[Uday Mohan Govil](https://www.linkedin.com/in/uday-govil/)**
-Digital & Customer Strategy and Innovation & Ventures professional. Former management consultant who led the pitch presentation structure, ideal customer profiling, and target market sizing.
+**[Uday Mohan Govil](https://www.linkedin.com/in/uday-govil/)** Digital & Customer Strategy and Innovation & Ventures professional. Former management consultant who led the pitch presentation structure, ideal customer profiling, and target market sizing.
 
 ---
 
