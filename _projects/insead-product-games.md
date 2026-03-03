@@ -64,28 +64,57 @@ We only found out about the competition two weeks before the deadline and didn't
 
 GrabTrade is a B2B marketplace and financing solution that digitizes the connection between regional distributors and micro-retailers, built on Grab's existing infrastructure.
 
-**01. Live B2B Marketplace**
-
+**01. Live B2B Marketplace**  
 Store owners browse and order from multiple distributors 24/7. A live price board shows real-time wholesale prices and promotions, giving warungs the transparency of a supermarket buyer.
 
-**02. Grab-Powered Delivery**
-
+**02. Grab-Powered Delivery**  
 Orders are pooled and auto-routed across Grab's existing fleet. Smart order pooling reduces delivery fees for store owners and increases earnings-per-km for Grab drivers.
 
-**03. GrabTrade Financing**
-
+**03. GrabTrade Financing**  
 Digital transaction history enables responsible credit scoring. Store owners access formal working capital at 18% APR (vs. 240% informal lenders). Grab pays distributors upfront; store owners repay from daily sales.
 
 ## Financial Projection
 
 Modeled against Grab's 2024 income statement structure: starting investment of ~$3.3M with a clear path to profitability by Year 3 driven by commission, logistics fees, and GrabPay fintech revenue.
 
-| Metric | Year 1 | Year 2 | Year 3 |
-|--------|--------|--------|--------|
-| Gross Revenue | $3.0M | $5.6M | $10.4M |
-| Operating Expenses | $4.4M | $5.8M | $7.4M |
-| **EBITDA** | **–$1.4M** | **–$0.2M** | **+$3.0M** |
-| Shops Onboarded | 198,000 | 727,000 | 1,470,000 |
+<div class="fin-table-wrapper">
+    <table class="fin-table">
+        <thead>
+            <tr>
+                <th>Metric</th>
+                <th>Year 1</th>
+                <th>Year 2</th>
+                <th>Year 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gross Revenue</td>
+                <td>$3.0M</td>
+                <td>$5.6M</td>
+                <td>$10.4M</td>
+            </tr>
+            <tr>
+                <td>Operating Expenses</td>
+                <td>$4.4M</td>
+                <td>$5.8M</td>
+                <td>$7.4M</td>
+            </tr>
+            <tr class="fin-highlight">
+                <td><strong>EBITDA</strong></td>
+                <td><strong>–$1.4M</strong></td>
+                <td><strong>–$0.2M</strong></td>
+                <td><strong>+$3.0M</strong></td>
+            </tr>
+            <tr>
+                <td>Shops Onboarded</td>
+                <td>198,000</td>
+                <td>727,000</td>
+                <td>1,470,000</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 ## Personal Learnings
 

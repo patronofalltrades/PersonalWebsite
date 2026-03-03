@@ -80,5 +80,11 @@ export default {
         enableMagnetic: true,         // Whether to enable magnetic link effects
         magneticSelectors: ['.nav-link', '.btn', '.nav-hamburger', '.nav-back'],
         magneticStrength: 0.3         // 0-1 - magnetic pull strength multiplier
+    },
+
+    // Command palette configuration (Cmd+K)
+    commandPalette: {
+        shortcut: { key: 'k', modifier: 'meta' },  // Cmd+K (or Ctrl+K on Windows)
+        commands: []                   // Uses default commands if empty
     }
 };

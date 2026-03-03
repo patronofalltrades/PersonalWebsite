@@ -10,6 +10,7 @@ import { initHeroParallax } from './features/heroParallax.js';
 import { initHamburger } from './features/hamburger.js';
 import { initShelfParallax } from './features/shelfParallax.js';
 import { initEffects } from './features/effects.js';
+import { initCommandPalette } from './features/commandPalette.js';
 import config from './config.js';
 
 // Feature registry with conditional loading
@@ -22,7 +23,8 @@ const features = {
     heroParallax: { init: initHeroParallax, enabled: true },
     hamburger: { init: initHamburger, enabled: true },
     shelfParallax: { init: initShelfParallax, enabled: true },
-    effects: { init: initEffects, enabled: true }
+    effects: { init: initEffects, enabled: true },
+    commandPalette: { init: initCommandPalette, enabled: true }
 };
 
 // Initialize all enabled features
