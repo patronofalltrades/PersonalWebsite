@@ -4,7 +4,6 @@ date: "12 March 2026"
 description: "AI won't eliminate bottlenecks — it will shift them. A framework for understanding which jobs expand, which disappear, and who captures the gains."
 ---
 
-*Thalhah Hanif Ramadhan*
 
 ![The New World's Bottleneck](../images/bottleneck-cover.png)
 
