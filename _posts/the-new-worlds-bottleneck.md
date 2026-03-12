@@ -85,7 +85,7 @@ AI makes you five to ten times more productive in the quadrants where automation
 
 The bottleneck shifts from "I don't have time to do this" to something harder to name. The next frontier of work, in my view, is everything that doesn't scale at the speed AI does.
 
-Inside organizations, the same logic applies at a different altitude. Rule-based work is the first to go: software development and financial reporting are both high-skill, high-pay, but ultimately rule-bound. AI doesn't need to be perfect to displace them. It needs to be fast enough and cheap enough, and it already is. The constraint moves to what can't be specified in advance.
+Inside organizations, the same logic applies at a different altitude. Rule-based work is the first to go: software development and financial reporting are both high-skill, high-pay, but ultimately rule-bound. AI doesn't need to be perfect to displace them, just fast enough and cheap enough, and the constraint moves to what can't be specified in advance.
 
 Culture sits in the fourth box by a different route: the tools aren't weak and demand isn't stable, but the output can't be measured. Keeping a company's culture alive means reading a room and making calls that feel wrong on a spreadsheet but right in context. The accountability can't be reduced to a sequence a model can learn. That, I think, is what survives.
 
