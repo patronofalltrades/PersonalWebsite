@@ -60,16 +60,23 @@ We only found out about the competition two weeks before the deadline and didn't
 ![Team Barcelona pitching GrabTrade at the INSEAD Product Games finale](images/insead-pitch.jpg)
 *Fig 2. — Pitching the GrabTrade live MVP to judges from Google, Stripe, and Grab.*
 
-<div class="detail-impact">
-<p class="detail-impact-label">The Solution: GrabTrade</p>
+## The Solution: GrabTrade
 
 GrabTrade is a B2B marketplace and financing solution that digitizes the connection between regional distributors and micro-retailers, built on Grab's existing infrastructure.
 
-**01. Live B2B Marketplace** Store owners browse and order from multiple distributors 24/7. A live price board shows real-time wholesale prices and promotions, giving warungs the transparency of a supermarket buyer.
+<div class="detail-impact">
+<p class="detail-impact-label"><strong>01. Live B2B Marketplace</strong></p>
+Store owners browse and order from multiple distributors 24/7. A live price board shows real-time wholesale prices and promotions, giving warungs the transparency of a supermarket buyer.
+</div>
 
-**02. Grab-Powered Delivery** Orders are pooled and auto-routed across Grab's existing fleet. Smart order pooling reduces delivery fees for store owners and increases earnings-per-km for Grab drivers.
+<div class="detail-impact">
+<p class="detail-impact-label"><strong>02. Grab-Powered Delivery</strong></p>
+Orders are pooled and auto-routed across Grab's existing fleet. Smart order pooling reduces delivery fees for store owners and increases earnings-per-km for Grab drivers.
+</div>
 
-**03. GrabTrade Financing** Digital transaction history enables responsible credit scoring. Store owners access formal working capital at 18% APR (vs. 240% informal lenders). Grab pays distributors upfront; store owners repay from daily sales.
+<div class="detail-impact">
+<p class="detail-impact-label"><strong>03. GrabTrade Financing</strong></p>
+Digital transaction history enables responsible credit scoring. Store owners access formal working capital at 18% APR (vs. 240% informal lenders). Grab pays distributors upfront; store owners repay from daily sales.
 </div>
 
 ## Financial Projection
@@ -134,16 +141,45 @@ Standing in front of product leaders from Grab, Google, Stripe, and INSEAD is an
 >
 > — Team Barcelona, IESE MBA Blog<sup>[2](#citation-2)</sup>
 
-<div class="detail-impact">
-<p class="detail-impact-label">The Team</p>
+## The Team
 
 Three IESE MBA Class of 2027 students. Three continents. Zero developers. A medically concerning amount of coffee.
 
-**[Hanif Ramadhan](https://www.linkedin.com/in/thanifr/)** Founder of Asperio (Industry 4.0, SEA) with 7 years of industrial tech experience. Directed product strategy and the development of the functional MVP.
+<div class="team-card-grid">
 
-**[Monica Beatrice](https://www.linkedin.com/in/monicabelen/)** Southeast Asian FMCG professional with deep knowledge of local distribution channels. Spearheaded core ideation, financial structuring, and market strategy.
+<div class="detail-impact team-card">
+<div class="team-card-header">
+<p class="detail-impact-label">Hanif Ramadhan</p>
+<a href="https://www.linkedin.com/in/thanifr/" target="_blank" rel="noopener" class="linkedin-btn" title="View LinkedIn Profile">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+<span>LinkedIn</span>
+</a>
+</div>
+Founder of Asperio (Industry 4.0, SEA) with 7 years of industrial tech experience. Directed product strategy and the development of the functional MVP.
+</div>
 
-**[Uday Mohan Govil](https://www.linkedin.com/in/uday-govil/)** Digital & Customer Strategy and Innovation & Ventures professional. Former management consultant who led the pitch presentation structure, ideal customer profiling, and target market sizing.
+<div class="detail-impact team-card">
+<div class="team-card-header">
+<p class="detail-impact-label">Monica Beatrice</p>
+<a href="https://www.linkedin.com/in/monicabelen/" target="_blank" rel="noopener" class="linkedin-btn" title="View LinkedIn Profile">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+<span>LinkedIn</span>
+</a>
+</div>
+Southeast Asian FMCG professional with deep knowledge of local distribution channels. Spearheaded core ideation, financial structuring, and market strategy.
+</div>
+
+<div class="detail-impact team-card">
+<div class="team-card-header">
+<p class="detail-impact-label">Uday Mohan Govil</p>
+<a href="https://www.linkedin.com/in/uday-govil/" target="_blank" rel="noopener" class="linkedin-btn" title="View LinkedIn Profile">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+<span>LinkedIn</span>
+</a>
+</div>
+Digital & Customer Strategy and Innovation & Ventures professional. Former management consultant who led the pitch presentation structure, ideal customer profiling, and target market sizing.
+</div>
+
 </div>
 
 ---

@@ -1305,6 +1305,64 @@ img {
     color: #0a66c2;
 }
 
+/* LinkedIn Button for Team Cards */
+.team-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.team-card-header .detail-impact-label {
+    margin-bottom: 0;
+}
+
+.linkedin-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--text-faint);
+    text-decoration: none;
+    transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+.linkedin-btn svg {
+    flex-shrink: 0;
+}
+
+.linkedin-btn:hover {
+    color: #0a66c2;
+    border-color: #0a66c2;
+    background: rgba(10, 102, 194, 0.06);
+}
+
+/* Team Card Grid — 3 side-by-side cards */
+.team-card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 32px 0 48px;
+}
+
+.team-card-grid .detail-impact.team-card {
+    margin: 0;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .team-card-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .fin-table-wrapper {
     overflow-x: auto;
     margin: 32px 0;

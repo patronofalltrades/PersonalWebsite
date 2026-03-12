@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node build.js"
+    "build": "node build.js",
+    "new-post": "node new-post.js"
   },
   "keywords": [],
   "author": "",
