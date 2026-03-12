@@ -49,7 +49,7 @@ In the third, automation helps but doesn't replace. Better tools unlock harder w
 
 The fourth box is the one I feel most settled about, which is probably a warning sign. When automation barely moves the needle and demand is stable, costs keep rising anyway because wages have to track the rest of the economy. Teaching and nursing sit here. Baumol described this dynamic in 1966 and nothing about the basic shape of it has changed since.
 
-LessWrong, a rationality and technology community known for long-form analytical writing, noted that Jevons and Baumol are 'often defined and discussed in a confused way.' I take that seriously. The matrix is my attempt to be more precise about which force applies where, but I hold it lightly. The quadrants describe tendencies, not settled outcomes.
+LessWrong, a rationality and technology community known for long-form analytical writing, noted that Jevons and Baumol are 'often defined and discussed in a confused way.' I take that seriously. The matrix is my attempt to be more precise about which force applies where, but I hold it lightly.
 
 The matrix is only useful if it predicts something, so here are four cases that test it.
 
@@ -59,11 +59,11 @@ I can't write about automation without getting to the robots at some point. In 2
 
 The robots made fulfillment fast enough for same-day delivery, which unlocked demand that had always been there. Order volume multiplied. Even though each order required less labor, volume dominated efficiency.
 
-The bottleneck didn't disappear. It shifted. First it was warehouse picking. Then packing and sorting. Then last-mile delivery. Last-mile delivery has no automation solution at scale. That became the new constraint. Amazon is still hiring because they keep hitting new bottlenecks as they push volume higher.
+The bottleneck didn't disappear. It shifted from warehouse picking to packing and sorting, and then to last-mile delivery, which has no automation solution at scale. Amazon is still hiring because they keep hitting new bottlenecks as they push volume higher.
 
 Not every case looks like Amazon. In Quadrant Two, automation is just as easy, but demand doesn't fill the space. In 2000, there were 124,000 travel agents in the US. By 2024, 65,700, down roughly 47%.<sup>[7](#fn-7)</sup> Expedia and Booking.com replaced the agent entirely.
 
-Demand for travel kept growing, but demand for the person who booked it didn't. Expedia made booking frictionless, but frictionless booking doesn't make people travel more. It just removes the intermediary. The market expanded; the agent's share of it went to zero.
+Demand for travel kept growing, but demand for the person who booked it didn't. Expedia made booking frictionless, but frictionless booking doesn't make people travel more. It just removes the intermediary, and the market expanded while the agent's share of it went to zero.
 
 The work could be automated, demand was fixed, and workers lost jobs. That outcome is what most people picture when they think about automation displacing workers. It's actually the rarest of the four cases, and the most overrepresented.
 
@@ -85,11 +85,11 @@ AI makes you five to ten times more productive in the quadrants where automation
 
 The bottleneck shifts from "I don't have time to do this" to something harder to name. The next frontier of work, in my view, is everything that doesn't scale at the speed AI does.
 
-Inside organizations, the same logic applies at a different altitude. Rule-based work is the first to go. Software development and financial reporting are good examples. Both are high-skill, high-pay, but ultimately rule-bound. AI doesn't need to be perfect to displace them. It needs to be fast enough and cheap enough, and it already is. The constraint moves to what can't be specified in advance.
+Inside organizations, the same logic applies at a different altitude. Rule-based work is the first to go: software development and financial reporting are both high-skill, high-pay, but ultimately rule-bound. AI doesn't need to be perfect to displace them. It needs to be fast enough and cheap enough, and it already is. The constraint moves to what can't be specified in advance.
 
-Culture sits in the fourth box by a different route. The tools aren't weak and demand isn't stable. The output just can't be measured. Keeping a company's culture alive means reading a room and making calls that feel wrong on a spreadsheet but right in context. The accountability can't be reduced to a sequence a model can learn. That, I think, is what survives.
+Culture sits in the fourth box by a different route: the tools aren't weak and demand isn't stable, but the output can't be measured. Keeping a company's culture alive means reading a room and making calls that feel wrong on a spreadsheet but right in context. The accountability can't be reduced to a sequence a model can learn. That, I think, is what survives.
 
-John Maynard Keynes, the British economist whose ideas reshaped how governments think about growth and employment, predicted in a 1930 essay called Economic Possibilities for Our Grandchildren that we'd have a fifteen-hour workweek by now. He was wrong not because the productivity didn't materialize, but because he assumed the gains would translate into leisure rather than higher expectations and new bottlenecks. The constraint doesn't just shift between tasks as the work expands. It shifts between people. I built a business in Southeast Asia on the assumption that proximity to the problem was an advantage. I'm less certain of that now.
+John Maynard Keynes, the British economist whose ideas reshaped how governments think about growth and employment, predicted in a 1930 essay called Economic Possibilities for Our Grandchildren that we'd have a fifteen-hour workweek by now. He was wrong not because the productivity didn't materialize, but because he assumed the gains would translate into leisure rather than higher expectations and new bottlenecks. The constraint doesn't just shift between tasks as the work expands. It shifts between people. I built a business in Southeast Asia on the assumption that proximity to the problem was an advantage. Now, I'm less certain of that.
 
 ## Standing Next to the New Bottleneck
 
@@ -105,7 +105,7 @@ The framework holds job by job. The harder question is what happens when Q2 outc
 
 The productivity gains from AI will not be evenly distributed, and nobody serious expects them to be. Private equity firms, platform owners, the people who already hold the capital that runs the infrastructure will capture the gains. The rest of us capture the workload. Leisure has always been the name we give to a future that moves as fast as you walk toward it. Agents will work with what looks like agency. And there will always be something on your plate, because the system was never designed to empty it.
 
-I started this thinking about factory floors in Southeast Asia, watching robots take over one station and a queue form at the next. The honest question I keep coming back to is whether I'm preparing for the right shift, or just the one I can see from where I'm standing. Jevons and Baumol don't give you the answer. But they force you to ask the question before the bottleneck moves.
+I started this on factory floors in Southeast Asia, watching robots take over one station and a queue form at the next. The question I keep coming back to is whether I'm preparing for the right shift, or just the one I can see from where I'm standing. Jevons and Baumol don't answer that, but they force you to ask before the bottleneck moves.
 
 The constraint moves. Who's standing next to it when it does?
 
