@@ -21,13 +21,11 @@ William Stanley Jevons was a young economist in 1865 England, trying to answer a
 
 In Scotland alone, coal consumption for iron production increased tenfold after the cost per ton of iron fell to less than a third of its former amount.<sup>[1](#fn-1)</sup> Cheaper power opened steam to factories that could never have justified it before, and to railways that built entire economies around it. The efficiency gain revealed a demand that high costs had been suppressing all along.
 
-AI is doing the same thing right now. The cost of running a language model dropped roughly a thousandfold in three years.<sup>[2](#fn-2)</sup> Every price cut triggered a surge in usage. Demand was waiting for the price to fall.
+AI is doing the same thing right now — the cost of running a language model dropped roughly a thousandfold in three years,<sup>[2](#fn-2)</sup> and every price cut triggered a surge in usage, as if demand had been waiting for the price to fall.
 
 This is what economists call Jevons' Paradox: efficiency doesn't reduce consumption, it expands it. Satya Nadella, CEO of Microsoft, tweeted 'Jevons paradox strikes again' the morning DeepSeek upended the AI market.<sup>[3](#fn-3)</sup>
 
-In 1966, two economists named William Baumol and William Bowen were trying to understand why opera companies kept running out of money. Almost everything in the postwar economy was getting cheaper, but live performance wasn't. They wanted to know why.
-
-In 1826, you need four musicians to play a Beethoven string quartet. It takes them thirty minutes. In 2026, you still need four musicians. It still takes thirty minutes. The productivity is exactly the same. You cannot make Beethoven more efficient without destroying what makes it valuable.
+In 1966, two economists named William Baumol and William Bowen were trying to understand why opera companies kept running out of money, since almost everything in the postwar economy was getting cheaper, but live performance wasn't. In 1826, you needed four musicians to play a Beethoven string quartet, and on average, it took them thirty minutes. In 2026, you still need four musicians, and it still takes thirty minutes. The productivity is the same because you cannot make Beethoven more efficient without destroying what makes it valuable.
 
 Those musicians in 2026 still need competitive wages in an economy where the average wage is twenty times higher in real terms, pulled up by two hundred years of productivity growth in sectors that actually did get more efficient. Baumol called this Cost Disease. Resistant work gets pulled upward by wages in every sector that did improve. The cost rises without the productivity to justify it.
 
@@ -53,7 +51,7 @@ The fourth box is the one I feel most settled about, which is probably a warning
 
 LessWrong, a rationality and technology community known for long-form analytical writing, noted that Jevons and Baumol are 'often defined and discussed in a confused way.' I take that seriously. The matrix is my attempt to be more precise about which force applies where, but I hold it lightly. The quadrants describe tendencies, not settled outcomes.
 
-The matrix is only useful if it predicts something. Here are four cases that test it.
+The matrix is only useful if it predicts something, so here are four cases that test it.
 
 ## Four Cases
 
