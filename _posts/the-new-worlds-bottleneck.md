@@ -21,7 +21,7 @@ William Stanley Jevons was a young economist in 1865 England, trying to answer a
 
 In Scotland alone, coal consumption for iron production increased tenfold after the cost per ton of iron fell to less than a third of its former amount.<sup>[1](#fn-1)</sup> Cheaper power opened steam to factories that could never have justified it before, and to railways that built entire economies around it. The efficiency gain revealed a demand that high costs had been suppressing all along.
 
-AI is doing the same thing right now — the cost of running a language model dropped roughly a thousandfold in three years,<sup>[2](#fn-2)</sup> and every price cut triggered a surge in usage, as if demand had been waiting for the price to fall.
+AI is doing the same thing right now: the cost of running a language model dropped roughly a thousandfold in three years,<sup>[2](#fn-2)</sup> and every price cut triggered a surge in usage, as if demand had been waiting for the price to fall.
 
 This is what economists call Jevons' Paradox: efficiency doesn't reduce consumption, it expands it. Satya Nadella, CEO of Microsoft, tweeted 'Jevons paradox strikes again' the morning DeepSeek upended the AI market.<sup>[3](#fn-3)</sup>
 
