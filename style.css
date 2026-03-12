@@ -1030,6 +1030,120 @@ img {
     margin-bottom: 48px;
 }
 
+/* Case Body — Typography & Spacing for Project Content */
+.case-body {
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: var(--text-muted);
+    max-width: 100%;
+}
+
+.case-body p {
+    margin-bottom: 28px;
+    max-width: 70ch;
+}
+
+.case-body h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-top: 56px;
+    margin-bottom: 20px;
+    letter-spacing: -0.01em;
+}
+
+.case-body h3 {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--text);
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.case-body ul,
+.case-body ol {
+    margin: 24px 0 32px;
+    padding-left: 24px;
+}
+
+.case-body li {
+    margin-bottom: 14px;
+    line-height: 1.8;
+    color: var(--text-muted);
+}
+
+.case-body li strong {
+    color: var(--text);
+}
+
+.case-body img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 40px 0 8px;
+}
+
+.case-body img+em,
+.case-body p>em:only-child {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-faint);
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.case-body blockquote {
+    border-left: 3px solid var(--border);
+    margin: 36px 0;
+    padding: 16px 24px;
+    font-style: italic;
+    color: var(--text-muted);
+    background: rgba(0, 0, 0, 0.015);
+    border-radius: 0 8px 8px 0;
+}
+
+.case-body blockquote p {
+    margin-bottom: 8px;
+}
+
+.case-body blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+.case-body hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 48px 0;
+}
+
+.case-body a {
+    color: var(--text);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: color 0.08s;
+}
+
+.case-body a:hover {
+    color: var(--accent);
+}
+
+.case-body sup {
+    font-size: 0.6em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+.case-body sup a {
+    text-decoration: none;
+    color: var(--text-faint);
+}
+
+/* Tighten up offering cards when stacked */
+.case-body .detail-impact+.detail-impact {
+    margin-top: -16px;
+}
+
 .case-section h3 {
     font-size: 1.1rem;
     margin-bottom: 16px;
