@@ -1,7 +1,7 @@
 ---
 title: "The New World's Bottleneck: Jevons, Baumol, and Who Captures the Gains from AI"
 date: "12 March 2026"
-description: "AI won't eliminate bottlenecks — it will shift them. A framework for understanding which jobs expand, which disappear, and who captures the gains."
+description: "An analytical framework applying Jevons Paradox and Baumol's Cost Disease to predict how structural intelligence automation shifts labor constraints and redistributes economic surplus."
 ---
 
 
