@@ -36,9 +36,10 @@ function buildPosts() {
         let finalHtml = template.replace(/\{\{title\}\}/g, title);
         finalHtml = finalHtml.replace(/\{\{date\}\}/g, date);
         finalHtml = finalHtml.replace(/\{\{description\}\}/g, description);
+        const outputFilename = file.replace('.md', '.html');
+        finalHtml = finalHtml.replace(/\{\{url_path\}\}/g, `posts/${outputFilename}`);
         finalHtml = finalHtml.replace(/\{\{content\}\}/g, htmlContent);
 
-        const outputFilename = file.replace('.md', '.html');
         fs.writeFileSync(path.join(POSTS_OUTPUT_DIR, outputFilename), finalHtml);
         console.log(`Generated: posts/${outputFilename}`);
     });
@@ -101,6 +102,7 @@ function buildProjects() {
         finalHtml = finalHtml.replace(/\{\{caseTitle\}\}/g, attributes.caseTitle || attributes.title || 'Untitled Project');
         finalHtml = finalHtml.replace(/\{\{subtitle\}\}/g, attributes.subtitle || '');
         finalHtml = finalHtml.replace(/\{\{description\}\}/g, attributes.description || '');
+        finalHtml = finalHtml.replace(/\{\{url_path\}\}/g, outputFilename);
         finalHtml = finalHtml.replace(/\{\{caseMeta\}\}/g, attributes.caseMeta || '');
         finalHtml = finalHtml.replace(/\{\{backLink\}\}/g, attributes.backLink || 'index.html');
         finalHtml = finalHtml.replace(/\{\{filename\}\}/g, outputFilename);
