@@ -1425,6 +1425,7 @@ img {
     align-items: center;
     justify-content: space-between;
     gap: 12px;
+    margin-bottom: 16px;
 }
 
 .team-card-header .detail-impact-label {
@@ -1469,6 +1470,9 @@ img {
 .team-card-grid .detail-impact.team-card {
     margin: 0;
     height: 100%;
+    padding: 20px 24px;
+    font-size: 0.925rem;
+    line-height: 1.65;
 }
 
 @media (max-width: 768px) {
