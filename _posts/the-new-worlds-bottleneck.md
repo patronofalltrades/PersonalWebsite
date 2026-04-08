@@ -11,7 +11,7 @@ Before my MBA, I worked on automating warehouses and manufacturing floors across
 
 I came to business school and found a language for it in Operations Management. At IESE, OM starts with something deceptively simple. Every system exists to serve an objective, and the job of management is to organize operations so the system actually reaches it. That framing led directly to the Theory of Constraints, introduced by Eliyahu Goldratt in his 1984 novel The Goal. Every system has a bottleneck, the one step that limits the entire system's throughput. A factory line moves only as fast as its slowest station. A restaurant serves only as many customers as its smallest constraint allows.
 
-The insight that changed how I think about AI came from a throwaway line in a lecture by Mirel Yavuz, my Operations Management professor. The line went: "When you eliminate a bottleneck, you don't eliminate constraints. You just shift the bottleneck to the next weakest link."
+The insight that changed how I think about AI came from a throwaway line in a lecture by Mirel Yavuz, my Operations Management professor. The line went: "When you elevate a bottleneck, you don't eliminate constraints. You just shift the bottleneck to the next weakest link."
 
 I'd seen this on factory floors for years. I started pulling on the OM thread and ended up in a 160-year-old debate about coal mines and concert halls. What I couldn't answer was whether the same thing happens when the automation isn't robots on a warehouse floor but AI running across every knowledge job in the economy, and who ends up on the wrong side when it does.
 
@@ -31,7 +31,7 @@ Those musicians in 2026 still need competitive wages in an economy where the ave
 
 A doctor's appointment still takes fifteen to twenty minutes. A teacher can still only manage twenty to twenty-five students. These ratios haven't changed in fifty years despite massive investments in technology. Neither Jevons nor Baumol was writing about AI, or about work in the way we talk about it now. Jevons was worried about coal running out. Baumol was worried about orchestras going broke. But the logic they each found turned out to describe something much larger than what they were looking at. Neither of them set out to do that.
 
-I didn't set out to find them either. I was trying to understand why eliminating a bottleneck on a factory floor never felt like the end of the problem.
+I didn't set out to find them either. I was trying to understand why elevating a bottleneck on a factory floor never felt like the end of the problem.
 
 These two forces operate at the same time, and they're not as separate as they first appear. The productivity boom in one sector is what drives wages up everywhere else. One force triggers the other. Alex Danco, in "Why AC Is Cheap, But AC Repair Is a Luxury" for a16z, put it cleanly: "Jevons is necessary for Baumol's to happen."<sup>[4](#fn-4)</sup> Most writing on AI sides with Jevons when someone is bullish, or with Baumol when they're not. I kept looking for something the existing writing wasn't offering. Not which force wins overall, but which force applies to any given job.
 
@@ -108,6 +108,10 @@ The productivity gains from AI will not be evenly distributed, and nobody seriou
 I started this on factory floors in Southeast Asia, watching robots take over one station and a queue form at the next. The question I keep coming back to is whether I'm preparing for the right shift, or just the one I can see from where I'm standing. Jevons and Baumol don't answer that, but they force you to ask before the bottleneck moves.
 
 The constraint moves. Who's standing next to it when it does?
+
+---
+
+*P.S. — With thanks to Professor Mirel Yavuz, whose framing sharpened the central metaphor (bottlenecks are elevated, not eliminated, in the Goldratt tradition); to Thomas Grainger Reeves, who pointed me to induced demand; and to Sumant Duggal, whose careful reading improved the piece. Revised on 8 April 2026 to correct grammar and tighten a few conceptual definitions.*
 
 ---
 
